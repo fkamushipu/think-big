@@ -1,4 +1,3 @@
-import 'dart:html';
 import 'package:flutter_application_1/pages/Login.page.dart';
 import 'package:flutter/material.dart';
 
@@ -141,7 +140,8 @@ class _CadastroPageState extends State<CadastroPage> {
           ),
           Container(
             height: 40,
-            child: TextButton(child: Text(
+            child: TextButton(
+              child: Text(
                 "Sign Up",
                 textAlign: TextAlign.center,
               ),
