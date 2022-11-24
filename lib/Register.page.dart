@@ -1,4 +1,4 @@
-import 'package:flutter_application_1/Login.page.dart';
+import 'package:flutter_application_1/pages/Login.page.dart';
 import 'package:flutter/material.dart';
 
 class CadastroPage extends StatefulWidget {

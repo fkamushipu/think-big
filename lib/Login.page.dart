@@ -1,6 +1,10 @@
-// ignore_for_file: library_private_types_in_public_api
-
+import 'dart:html';
+import 'package:flutter_application_1/pages/Register.page.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_application_1/pages/profile.dart';
+import 'package:flutter_application_1/pages/Dashboard.dart';
+import 'package:flutter_application_1/pages/Register.page.dart';
+import 'package:flutter_application_1/pages/Dashboard.dart';
 
 class LoginPage extends StatefulWidget {
   const LoginPage({Key? key}) : super(key: key);
@@ -168,8 +172,12 @@ class _LoginPageState extends State<LoginPage> {
                     onPressed: () => {
                           Navigator.push(
                             context,
+<<<<<<< HEAD:lib/Login.page.dart
                             MaterialPageRoute(
                                 builder: (context) => const Dashboard()),
+=======
+                            MaterialPageRoute(builder: (context) => NavBar()),
+>>>>>>> 900c1c9c17f36af3896de6332d41fec60338e0a4:lib/pages/Login.page.dart
                           )
                         }),
               )),
@@ -183,7 +191,13 @@ class _LoginPageState extends State<LoginPage> {
                 "Register",
                 textAlign: TextAlign.center,
               ),
-              onPressed: () => {},
+              onPressed: () => {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (context) => CadastroPage()),
+                ),
+              },
+      
             ),
           )
         ],

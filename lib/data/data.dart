@@ -26,8 +26,7 @@ List<TileModel> getPairs() {
   TileModel tileModel = TileModel(imageAssetPath: '', isSelected: true);
 
   //1
-  tileModel.setImageAssetPath("assets
-  /fox.png");
+  tileModel.setImageAssetPath("assets/fox.png");
 
   tileModel.setIsSelected(false);
   pairs.add(tileModel);
