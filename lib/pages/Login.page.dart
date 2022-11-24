@@ -1,6 +1,7 @@
 import 'dart:html';
-
+import 'package:flutter_application_1/pages/Register.page.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_application_1/pages/profile.dart';
 import 'package:flutter_application_1/pages/Dashboard.dart';
 import 'package:flutter_application_1/pages/Register.page.dart';
 import 'package:flutter_application_1/pages/Dashboard.dart';
@@ -122,8 +123,7 @@ class _LoginPageState extends State<LoginPage> {
                     onPressed: () => {
                           Navigator.push(
                             context,
-                            MaterialPageRoute(
-                                builder: (context) => Dashboard()),
+                            MaterialPageRoute(builder: (context) => NavBar()),
                           )
                         }),
               )),
@@ -137,7 +137,13 @@ class _LoginPageState extends State<LoginPage> {
                 "Register",
                 textAlign: TextAlign.center,
               ),
-              onPressed: () => {},
+              onPressed: () => {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (context) => CadastroPage()),
+                ),
+              },
+      
             ),
           )
         ],

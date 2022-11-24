@@ -46,7 +46,7 @@ class _SplashScreenState extends State<SplashScreen> {
                     ),
                     Container(
                         height: 200,
-                        child: Text("All-Inclusive",
+                        child: Text("Learn-together",
                             textAlign: TextAlign.center,
                             style: TextStyle(
                               color: Color.fromARGB(255, 29, 12, 98),
