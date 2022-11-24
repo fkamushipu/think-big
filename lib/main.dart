@@ -1,11 +1,10 @@
 import 'package:flutter/services.dart';
-import 'package:flutter_application_1/pages/Starting.dart';
-import 'package:flutter_application_1/pages/Login.page.dart';
+import 'package:flutter_application_1/Starting.dart';
 import 'package:flutter/material.dart';
 
 void main() {
   SystemChrome.setSystemUIOverlayStyle(
-      SystemUiOverlayStyle(statusBarColor: Colors.transparent));
+      const SystemUiOverlayStyle(statusBarColor: Colors.transparent));
   runApp(const MyApp());
 }
 
